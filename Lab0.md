@@ -6,4 +6,6 @@
 
 Dưới đây là một sơ đồ được nhúng bằng PlantUML:
 
+![Diagram](http://www.plantuml.com/plantuml/png/encoded-diagram-text)
+
 https://www.planttext.com/#google_vignette
