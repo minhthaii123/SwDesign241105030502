@@ -32,7 +32,7 @@
 | IBankSystem           | IBankSystem       |
 | PayrollController     | PayrollController |
 | BankSystem            | BankSystem        |
-| Paycheck              | Paycheck)         |
+| Paycheck              | Paycheck         |
 | BankInformation       | BankInformation   |
 
 # PrintService
