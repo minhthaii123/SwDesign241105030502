@@ -27,33 +27,33 @@
 ## 2. Analysis class to design element map
 # BankSystem
 
-| **Design Element**    | **Owning Package**      |
+| **Annlysis class**    | **Design Element**      |
 |------------------------|-------------------------|
-| IBankSystem           | Giao diện (Interface)       |
-| PayrollController     | Lớp điều khiển (Controller) |
-| BankSystem            | Hệ thống con (Subsystem)    |
-| Paycheck              | Lớp thực thể (Entity Class) |
-| BankInformation       | Lớp thực thể (Entity Class) |
+| IBankSystem           | IBankSystem       |
+| PayrollController     | PayrollController |
+| BankSystem            | BankSystem        |
+| Paycheck              | Paycheck)         |
+| BankInformation       | BankInformation   |
 
 # PrintService
 
-| **Design Element**    | **Owning Package**      |
+| **Annlysis class**    | **Design Element**      |
 |------------------------|-------------------------|
-| IPrintService          | Giao diện (Interface) định nghĩa các phương thức in như printPaySlip(aPaycheck, employeeInfo)      |
-| PayrollController      | Lớp điều khiển (Controller) quản lý logic in phiếu lương và gửi yêu cầu đến IPrintService          |
-| PrintService           | Hệ thống con (Subsystem) thực thi lệnh in từ IPrintService                                         |
-| Paycheck               | Lớp thực thể (Entity Class) chứa thông tin phiếu lương như số tiền, ngày trả lương, ID nhân viên   |
-| EmployeeInformation    | Lớp thực thể (Entity Class) chứa thông tin nhân viên như tên, ID, bộ phận                          |
+| IPrintService          |    IPrintService         |
+| PayrollController      | PayrollController        |
+| PrintService           | PrintService             |
+| Paycheck               | Paycheck                 |
+| EmployeeInformation    | EmployeeInformation      |
 
 # ProjectManagementDatabase
 
-| **Design Element**    | **Owning Package**      |
+| **Annlysis class**    | **Design Element**      |
 |------------------------|-------------------------|
-| IProjectManagementDatabase   | Giao diện (Interface) định nghĩa các phương thức để quản lý dự án như saveProject, updateProject.            |
-| ProjectController            | Lớp điều khiển (Controller) quản lý logic của các thao tác với dự án và tương tác với giao diện.             |
-| ProjectManagementDatabase    | Hệ thống con (Subsystem) triển khai thực tế các phương thức từ IProjectManagementDatabase.                   |
-| Project                      | Lớp thực thể (Entity Class) lưu trữ thông tin cơ bản của dự án, như tên dự án, mã dự án.                     |
-| ProjectDetails               | Lớp thực thể (Entity Class) chứa thông tin chi tiết về dự án như thời gian bắt đầu, thời gian kết thúc.      |
+| IProjectManagementDatabase   | IProjectManagementDatabase    |
+| ProjectController            | ProjectController             |
+| ProjectManagementDatabase    | ProjectManagementDatabase     |
+| Project                      | Project                       |
+| ProjectDetails               | ProjectDetails                | 
 
 ## 3. Design element to owning package map
 # BankSystem
