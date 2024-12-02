@@ -1,4 +1,4 @@
-# Lab 5. Thiết kế các ca sử dụng cho hệ thống "Payroll System" và viết tài liệu giải thích lý do đưa ra thiết kế đó
+# Lab 4. Thiết kế các ca sử dụng cho hệ thống "Payroll System" và viết tài liệu giải thích lý do đưa ra thiết kế đó
 
 ## 1. Thiết kế các ca sử dụng cho hệ thống "Payroll System"
   ### 1.1. Danh sách các ca sử dụng
