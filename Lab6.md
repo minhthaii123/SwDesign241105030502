@@ -1,4 +1,4 @@
-# LAB 6: 
+# LAB 6: Thiết kế các lớp dựa vào kết quả thiết kế ca sử dụng ở bài lab trước
 ## 1 Xác định operations và methods hệ thống con
 ### 1.1 BankSystem
 Mục tiêu: Xử lý giao dịch gửi tiền trực tiếp vào tài khoản ngân hàng.
